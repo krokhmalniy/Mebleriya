@@ -70,9 +70,6 @@ document.addEventListener('click', event => {
 
       // Відображення зірок
 
-      // starRating.dataset.score = normalizeRating(data.rate);
-      // createStars();
-
       starRating.innerHTML = '';
       createStars(starRating, normalizeRating(data.rate));
 
